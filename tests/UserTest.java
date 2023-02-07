@@ -52,5 +52,12 @@ public class UserTest {
         } else {
             System.out.println("Error");
         }
+
+        // asserts
+        assert test_user.getUsername() == test_username;
+        assert test_user.getPassword() == test_password;
+        assert test_user.getFirst_name() == test_first_name;
+        assert test_user.getLast_name() == test_last_name;
+        assert test_user.getMobile_number() == test_mobile_number;
     }
 }
