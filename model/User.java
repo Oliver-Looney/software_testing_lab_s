@@ -16,6 +16,11 @@ public class User {
         this.mobile_number = mobile_number;
     }
 
+    @Override
+    public String toString() {
+        return username + "\n" + password + "\n" + first_name + "\n" + last_name + "\n" + mobile_number;
+    }
+
     public String getUsername() {
         return username;
     }
