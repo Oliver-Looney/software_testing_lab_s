@@ -6,9 +6,10 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Vector;
 
+import app.model.User;
 import model.Account;
 import model.Transaction;
-import model.User;
+//import model.User;
 
 public class SimpleBankingApp {
 	public static Vector<User> users = new Vector<User>();
@@ -72,7 +73,7 @@ public class SimpleBankingApp {
 				"Account #", "username_of_account_holder", "type", "opening_date", "Balance"));
 		System.out.println("--------------------------------------------------------------------------------");
 		for  (int i = 0; i < accounts.size(); i++) 
-            System.out.println(accounts.get(i).toString() + "| £" + getBalance(accounts.get(i).getAccount_number()));	
+            System.out.println(accounts.get(i).toString() + "| ï¿½" + getBalance(accounts.get(i).getAccount_number()));	
 		System.out.println();
 	}
 	
