@@ -7,8 +7,8 @@ import java.util.Calendar;
 import java.util.Vector;
 
 import app.model.User;
-import model.Account;
-import model.Transaction;
+import app.model.Account;
+import app.model.Transaction;
 //import model.User;
 
 public class SimpleBankingApp {
